@@ -1,4 +1,4 @@
-package com.karolyboss.ai_coach
+package com.aicoach
 
 import android.app.Application
 import android.content.res.Configuration
