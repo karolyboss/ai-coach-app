@@ -1,4 +1,4 @@
-package com.aicoach
+package com.karolyboss.ai_coach
 
 import android.os.Build
 import android.os.Bundle
