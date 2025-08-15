@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AI Coach",
+    "slug": "ai-coach",
+    "version": "0.3.0",
+    "scheme": "aicoach",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["react-native-vision-camera"],
+    "ios": {
+      "bundleIdentifier": "com.aicoach",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow the camera to analyze your form and count reps.",
+        "NSPhotoLibraryUsageDescription": "Allow access to your photos to log meals from the gallery."
+      }
+    },
+    "android": {
+      "package": "com.aicoach",
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES", "READ_EXTERNAL_STORAGE"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": { "bundler": "metro", "favicon": "./assets/favicon.png" },
+    "newArchEnabled": true
+  }
+}

@@ -1,0 +1,26 @@
+# Don't commit node_modules
+node_modules/
+.expo/
+logs/
+*.log
+*.bak*
+*.backup*
+
+# Build files
+android/app/build/
+ios/build/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# OS
+.DS_Store
