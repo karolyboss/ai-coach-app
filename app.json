@@ -28,7 +28,7 @@
       }
     },
     "android": {
-      "package": "com.aicoach",
+      "package": "com.karolyboss.ai_coach",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
